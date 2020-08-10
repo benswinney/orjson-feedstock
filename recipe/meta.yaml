@@ -17,6 +17,9 @@ source:
   - url: https://static.rust-lang.org/dist/2020-06-09/rust-nightly-x86_64-pc-windows-msvc.tar.gz  # [win]
     sha256: 7e8f97be7eb32b6f59e40a75e63bc2438a0573092e8312b1be2b52f28f1cc851  # [win]
     folder: rust-nightly  # [win]
+  - url: https://static.rust-lang.org/dist/2020-06-09/rust-nightly-powerpc64le-unknown-linux-gnu.tar.gz # [powerpc64le]
+    sha256: 3e545bdd66ff32220178226e820150c6b57e9b198af2bc38fb922092cfa25621 # [powerpc64le]
+    folder: rust-nightly # [powerpc64le]
 
 build:
   number: 1
